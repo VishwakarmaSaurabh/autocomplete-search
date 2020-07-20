@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autocomplete Search</title>
+
+    <!-- FontAwesome Icons -->
+    <!-- <script
+      src="https://kit.fontawesome.com/cbe68b6bc9.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- Bootstrap Links -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container text-center p-4 bg-warning mt-4 rounded">
+      <h1 class="text-dark">Autocomplete Search</h1>
+      <hr class="my-4" />
+      <form class="container d-flex flex-row justify-content-center">
+        <input
+          class="form-control mr-sm-2 bg-light border-dark"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          id="search"
+          autofocus
+        />
+      </form>
+    </div>
+    <div class="container bg-warning rounded" id="filteredList"></div>
+    <!-- Bootstrap JS Links -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custome JavaScripts -->
+    <script src="js/index.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
